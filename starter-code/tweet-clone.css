@@ -1,0 +1,162 @@
+body {
+	font-family: Helvetica;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -200px;
+	margin-left: -500px;
+}
+
+.tweet-block {
+	background: rgb(244, 248, 249);
+	height: 400px;
+	width: 1000px;
+}
+
+.tweet-entry {
+	background: rgb(255, 255, 255);
+	position: fixed;
+	border: 1px solid rgb(225, 232, 237);
+	border-radius: 25px;
+	background: white;
+	height: 360px;
+	width: 950px;
+	top: 50%;
+	left: 50%;
+	margin-top: -180px;
+	margin-left: -475px;
+}
+
+.tweet-header {
+	position: fixed;
+	//border: 1px solid #D0D3D4;
+	height: 100px;
+	width: 950px;
+	margin: 20px 0px 30px 0px;
+}
+
+.tweet-author-picture {
+	position: relative;
+	float: left;
+	margin: -90px 0px 15px 30px;
+	height: 100px;
+	width: 100px;
+
+}
+
+.tweet-user-validation {
+	position: relative;
+	float: center;
+	//border: 1px solid #D0D3D4;
+	height: 100px;
+	width: 400px;
+	margin: 0px 50px 0px 100px;
+}
+
+#tweet-account-validation  a{
+	//font-family: Helvetica;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgb(0, 0, 0);
+	margin: -50px -20px -10px 0px;
+}
+
+#tweet-account-user {
+	//font-family: Helvetica;
+	font-size: 30px;
+	color: rgb(104, 109, 129);
+	margin: 0px 0px 0px 0px;
+}
+
+.tweet-logo {
+	position: relative;
+	float: right;
+	border: 3px solid rgb(85, 172, 238);
+	border-radius: 25px;
+	height: 20px;
+	width: 200px;
+	margin: 10px 20px;
+	padding: 30px 30px;
+}
+
+#logo-picture {
+	position: relative;
+	float: left;
+	margin: -10px 0px 0px 0px;
+	height: 40px;
+	width: 40px;
+}
+
+.follow-button {
+	position: relative;
+	float: right;
+	margin: -40px 0px 0px 40px;
+	//border: 1px solid #D0D3D4;
+	line-height:40px;
+	height: 40px;
+	width: 150px;	
+	//font-family: Helvetica;
+	font-weight: bold;
+	text-align: center;
+	font-size: 40px;
+	color: rgb(85, 172, 238);
+}
+
+.tweet-body {
+	//border: 1px solid #D0D3D4;
+	height: 120px;
+	width: 950px;
+	margin: 160px 0px 30px 0px;
+}
+
+ul{
+	list-style-type:none;
+	margin: 15px 0px 0px 30px;
+	padding: 0px 0px 0px 0px;
+	//font-family: Helvetica;
+}
+
+#tweet-text{
+	font-size: 40px;
+	color: rgb(0, 0, 0);
+}
+
+#tweet-date{
+	margin: 15px 0px 0px 0px;
+	font-size: 30px;
+	color: rgb(101, 116, 127);
+}
+
+.tweet-actions {
+	//border: 1px solid #D0D3D4;
+	height: 80px;
+	width: 950px;
+	margin: -20px 0px 0px 0px;
+}
+
+#tweet-action  li {  
+	/*making inline <li> elements for horizontal pictures, text, or menus*/
+	display: inline;
+}
+
+a{
+	padding: 30px 10px;
+	//font-family: Helvetica;
+	text-align: center;
+	font-size: 30px;
+	color: rgb(105, 120, 130);
+	/* The text-decoration property is mostly used to remove underlines from links */
+	text-decoration: none
+}
+
+
+
+
+
+
+
+
+
+
+
+
